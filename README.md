@@ -7,14 +7,14 @@ A provider for [Faker](https://github.com/fzaninotto/Faker#faker-internals-under
 Install this package via composer
 
 ```
-composer require mattwells/faker-vehicle
+composer require ordermarket/faker-vehicle
 ```
 
 Finally you need to add the provider to Faker
 
 ```php
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \MattWells\Faker\Vehicle\Provider($faker));
+$faker->addProvider(new \OrderMarket\Faker\Vehicle\Provider($faker));
 ```
 
 ## Usage

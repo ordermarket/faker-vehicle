@@ -7,7 +7,7 @@
         }
     },
     "require": {
-        "fzaninotto/faker": "^1.12"
+        "fakerphp/faker": "~1.9"
     },
     "license": "MIT",
     "authors": [

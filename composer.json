@@ -1,19 +1,23 @@
 {
-    "name": "mattwells/faker-vehicle",
+    "name": "ordermarket/faker-vehicle",
     "description": "Faker provider for vehicles",
     "autoload": {
         "psr-4": {
-            "MattWells\\Faker\\Vehicle\\": "src/"
+            "OrderMarket\\Faker\\Vehicle\\": "src/"
         }
     },
     "require": {
-        "fzaninotto/faker": "^1.5"
+        "fzaninotto/faker": "^1.12"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Matt Wells",
             "email": "matt@cantseethecode.com"
+        },
+        {
+            "name": "Mike Brown",
+            "email": "mike@ordermarket.com"
         }
     ]
 }

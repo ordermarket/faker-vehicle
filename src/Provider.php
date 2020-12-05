@@ -1,6 +1,6 @@
 <?php
 
-namespace MattWells\Faker\Vehicle;
+namespace OrderMarket\Faker\Vehicle;
 
 use Faker\Provider\Base;
 use Faker\Provider\DateTime;
